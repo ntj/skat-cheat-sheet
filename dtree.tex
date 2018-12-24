@@ -6,6 +6,7 @@
 \usepackage{array,booktabs}
 \usepackage{relsize}
 \usepackage{xcolor}
+\usepackage[landscape]{geometry}
 
 \newcommand{\clubs}{{\larger[2]\Pisymbol{psy}{"A7}}}
 \newcommand{\spades}{{\larger[2]\Pisymbol{psy}{"AA}}}
@@ -25,20 +26,20 @@
           [Jack of \spades?,edge label={node[midway,right,font=\scriptsize]{yes}}
             [Jack of \hearts?,edge label={node[midway,right,font=\scriptsize]{yes}}
               [Jack of \diamonds?,edge label={node[midway,right,font=\scriptsize]{yes}}
-                [with four!, treenode, edge label={node[midway, left, font=\scriptsize]{yes}}]
-                [with tree!, treenode, edge label={node[midway, right, font=\scriptsize]{no}}]
+                [with four game five, treenode, edge label={node[midway, left, font=\scriptsize]{yes}}]
+                [with three game four, treenode, edge label={node[midway, right, font=\scriptsize]{no}}]
               ]
-              [with two!, treenode, edge label={node[midway, right, font=\scriptsize]{no}}]
+              [with two game three, treenode, edge label={node[midway, right, font=\scriptsize]{no}}]
             ]
-            [with one!, treenode, edge label={node[midway, right, font=\scriptsize]{no}}]
+            [with one game two, treenode, edge label={node[midway, right, font=\scriptsize]{no}}]
           ]
           [Jack of \spades?,edge label={node[midway,right,font=\scriptsize]{no}}
-            [without one!, treenode, edge label={node[midway, left, font=\scriptsize]{yes}}]
+            [without one game two, treenode, edge label={node[midway, left, font=\scriptsize]{yes}}]
             [Jack of \hearts?, edge label={node[midway, right, font=\scriptsize]{no}}
-              [without two!, treenode, edge label={node[midway, left, font=\scriptsize]{yes}}]
+              [without two game three, treenode, edge label={node[midway, left, font=\scriptsize]{yes}}]
               [Jack of \diamonds?, edge label={node[midway, right, font=\scriptsize]{no}}
-                [without three!, treenode, edge label={node[midway, left, font=\scriptsize]{yes}}]
-                [without four!, treenode, edge label={node[midway, right, font=\scriptsize]{no}}]  
+                [without three game four,  treenode, edge label={node[midway, left, font=\scriptsize]{yes}}]
+                [without four game five, treenode, edge label={node[midway, right, font=\scriptsize]{no}}]
               ]
             ]
           ]
